@@ -1,0 +1,191 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #5f551ae7;
+  font-size: 40px;
+  box-shadow: 1px 1px 20px black;
+}
+
+header div {
+  width: 20%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.active,
+.link {
+  color: #cebb53 !important;
+  text-decoration: none;
+}
+
+.active,
+.link:hover {
+  text-decoration: underline;
+}
+
+.add-book-container {
+  background: url("https://wallpaperaccess.com/full/2114501.jpg");
+  background-size: 100% 100%;
+  padding: 100px 0;
+}
+
+form {
+  width: 50%;
+  padding: 30px;
+  margin: 50px auto;
+  background-color: #5f551ae7;
+  border-radius: 10px;
+  border: 3px dashed rgba(127, 134, 27, 0.603);
+  color: #cebb53;
+  font-size: 40px;
+}
+
+.book-page {
+  padding: 100px 0;
+  background: url("https://wallpaperaccess.com/full/2114455.jpg");
+  background-size: 100% 100%;
+}
+
+.book-page-container {
+  background-image: url(http://localhost:3000/static/media/book-cover.86ddcc7ab9fee8e37b76.png);
+  background-size: 100% 100%;
+  width: 35%;
+  min-height: 900px;
+  margin: 50px auto;
+  padding: 15px;
+  border-radius: 35px;
+  border: 2px solid rgba(127, 134, 27, 0.603);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.book-page-container button:first-child {
+  width: 80px;
+}
+
+.book-page-container h1 {
+  color: #cebb53;
+  text-shadow: 1px 1px 5px black;
+  font-size: 50px;
+}
+
+.book-page-container h2 {
+  color: #cebb53;
+  text-shadow: 1px 1px 5px black;
+  font-size: 45px;
+}
+
+.book-page-container h3 {
+  color: #cebb53;
+  text-shadow: 1px 1px 5px black;
+  font-size: 40px;
+}
+
+.book-page-text {
+  background-color: #5f551a;
+  width: 55%;
+  padding: 15px;
+  height: fit-content;
+  text-align: left;
+  margin: 0 auto;
+  border-radius: 35px;
+  border: 3px dashed rgba(127, 134, 27, 0.603);
+  font-size: 35px;
+}
+
+.book-reviews {
+  background-color: #5f551ae7;
+  width: 55%;
+  padding: 15px;
+  margin: 100px auto;
+  border-radius: 35px;
+  border: 3px dashed rgba(127, 134, 27, 0.603);
+  color: #cebb53;
+}
+
+.review {
+  background-color: #5f551ae7;
+  width: 55%;
+  padding: 15px;
+  margin: 100px auto;
+  border-radius: 35px;
+  border: 3px dashed rgba(127, 134, 27, 0.603);
+  font-size: 35px;
+}
+
+.react-stars {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.edit {
+  width: 100px;
+}
+
+.react-stars-wrapper-05387430516264538 {
+  width: fit-content;
+}
+
+.book-page-container h2 span {
+  margin-bottom: 20px;
+}
+
+.books-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.select {
+  border: none;
+  background: none;
+  color: #cebb53;
+  font-family: "My Soul", cursive;
+  font-size: 45px;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-left: 15px;
+}
